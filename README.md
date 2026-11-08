@@ -24,34 +24,40 @@ Este repositorio contiene el **Análisis Exploratorio de Datos (EDA)** realizado
 🛠️ Tecnologías y Librerías Utilizadas
 Python 3.x
 
-    Pandas: Manipulación, agregación y limpieza de datos.
+    - Pandas: Manipulación, agregación y limpieza de datos.
 
-    NumPy: Operaciones vectorizadas y transformaciones.
+    - NumPy: Operaciones vectorizadas y transformaciones.
 
-    Matplotlib & Seaborn: Visualización de distribuciones, análisis bivariado y matrices de correlación (heatmap).
+    - Matplotlib & Seaborn: Visualización de distribuciones, análisis bivariado y matrices de correlación (heatmap).
 
 💡 Hallazgos y Conclusiones Clave
-    Percepción de Salud (GenHlth): La salud general percibida es uno de los predictores individuales más potentes de la diabetes ($r \approx 0.30$).
-    Comorbilidad Fisiológica (HighBP, HighChol, BMI): La hipertensión arterial ($r \approx 0.27$), el índice de masa corporal ($r \approx 0.22$) y el colesterol elevado ($r \approx 0.21$) muestran fuerte coexistencia con la enfermedad.
-    Impacto del Feature Engineering (Risk_Score): La combinación sintética de hipertensión, colesterol e IMC $\ge 30$ eleva la correlación lineal a $r \approx 0.38$, demostrando que el riesgo metabólico actúa por acumulación sinérgica.
-    Calidad de Datos y Outliers: Se identificaron 2.181 registros atípicos (3,16%) en IMC correspondientes a obesidad severa/mórbida. Se decidió conservar la totalidad de la muestra (253.680 registros) por su validez clínica en encuestas epidemiológicas.
+    - Percepción de Salud (GenHlth): 
+        La salud general percibida es uno de los predictores individuales más potentes de la diabetes ($r \approx 0.30$).
+
+    - Comorbilidad Fisiológica (HighBP, HighChol, BMI): 
+        La hipertensión arterial ($r \approx 0.27$), el índice de masa corporal ($r \approx 0.22$) y el colesterol elevado ($r \approx 0.21$) muestran fuerte coexistencia con la enfermedad.
+
+    - Impacto del Feature Engineering (Risk_Score): 
+        La combinación sintética de hipertensión, colesterol e IMC $\ge 30$ eleva la correlación lineal a $r \approx 0.38$, demostrando que el riesgo metabólico actúa por acumulación sinérgica.
+
+    - Calidad de Datos y Outliers: 
+        Se identificaron 2.181 registros atípicos (3,16%) en IMC correspondientes a obesidad severa/mórbida. Se decidió conservar la totalidad de la muestra (253.680 registros) por su validez clínica en encuestas epidemiológicas.
 
     🚀 Instrucciones de Instalación y Ejecución
-    Sigue estos pasos para clonar y ejecutar el entorno de análisis localmente:
+    Seguir estos pasos para clonar y ejecutar el entorno de análisis localmente:
 
     1. Clonar el repositorio:
-       git clone [https://github.com/TU_USUARIO/proyecto-eda-diabetes.git](https://github.com/TU_USUARIO/proyecto-eda-diabetes.git)
+       git clone [https://github.com/PDguezPgr/proyecto-eda-diabetes.git](https://github.com/PdguezPgr/proyecto-eda-diabetes.git)
        cd proyecto-eda-diabetes 
 
     2. Crear y activar el entorno virtual:
     # En Git Bash (Windows)
-    python -m venv venv
-    source venv/Scripts/activate
+       python -m venv venv
+       source venv/Scripts/activate
 
     3. Instalar dependencias:
        pip install -r requirements.txt
 
     4. Abrir y ejecutar el notebook:
-       Abre VS Code o Jupyter Lab y ejecuta eda_diabetes.ipynb de arriba a abajo.
+       Abrir VS Code o Jupyter Lab y ejecutar eda_diabetes.ipynb de arriba a abajo.
 
-       
