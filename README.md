@@ -67,3 +67,7 @@ Este repositorio contiene el **Análisis Exploratorio de Datos (EDA)** realizado
     4. Abrir y ejecutar el notebook:
        Abrir VS Code o Jupyter Lab y ejecutar eda_diabetes.ipynb de arriba a abajo seleccionando el Kernel del entorno venv.
 
+       ### 🌐 Visualización Interactiva
+        - **Gráfico interactivo:** `grafico_interactivo_diabetes.html`
+        > *Nota:* Debido al límite de tamaño de previsualización de GitHub, para explorar el gráfico interactivo de Plotly descarga el archivo `.html` y ábrelo en cualquier navegador web.
+
