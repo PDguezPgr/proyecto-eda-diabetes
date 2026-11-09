@@ -17,6 +17,9 @@ Este repositorio contiene el **Análisis Exploratorio de Datos (EDA)** realizado
 ```text
 ├── data/
 │   └── diabetes_health_indicators.csv # Dataset limpio de entrada
+├── docs/                # Documentación e informes
+│   └── informe Ejecutivo - EDA Diabetes BRFSS 2015.pdf 
+│   └── INFORME_INTEGRADO Y BITACORA DE APRENDIZAJE.md  
 ├── eda_diabetes.ipynb   # Cuaderno principal de Jupyter con EDA completo
 ├── requirements.txt     # Dependencias y librerías del proyecto
 └── README.md            # Documentación principal del proyecto
