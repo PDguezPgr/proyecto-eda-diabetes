@@ -75,12 +75,3 @@ A lo largo del ciclo de vida del proyecto, se estableció un flujo de trabajo re
 - [ ] **Automatización de Git:** Configuración de hooks de Git y flujos de integración continua (CI/CD) para validación automática de notebooks antes de cada push.
 
 ---
-
-### 📤 Estado del Repositorio Final
-Para registrar este informe consolidado dentro de tu repositorio en GitHub, ejecuta los siguientes comandos en tu terminal Git Bash:
-
-```bash
-git add INFORME_INTEGRADO_PROYECTO.md
-git commit -m "docs: agregar informe tecnico integrado y bitacora consolidada"
-git push origin main
-```
