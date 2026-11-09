@@ -16,19 +16,24 @@ Este repositorio contiene el **Análisis Exploratorio de Datos (EDA)** realizado
 
 ```text
 ├── data/
-│   └── diabetes_health_indicators.csv #Dataset limpio de entrada
+│   └── diabetes_health_indicators.csv # Dataset limpio de entrada
 ├── eda_diabetes.ipynb   # Cuaderno principal de Jupyter con EDA completo
 ├── requirements.txt     # Dependencias y librerías del proyecto
 └── README.md            # Documentación principal del proyecto
 
 🛠️ Tecnologías y Librerías Utilizadas
-Python 3.x
+
+    - Python 3.12: Lenguaje
 
     - Pandas: Manipulación, agregación y limpieza de datos.
 
     - NumPy: Operaciones vectorizadas y transformaciones.
 
     - Matplotlib & Seaborn: Visualización de distribuciones, análisis bivariado y matrices de correlación (heatmap).
+
+    - Visualización interactiva: plotly (y 'nbformat' para soporte en notebooks)
+
+    - Entorno de desarrollo: VS Code / Jupyter Notebook
 
 💡 Hallazgos y Conclusiones Clave
     - Percepción de Salud (GenHlth): 
@@ -54,10 +59,11 @@ Python 3.x
     # En Git Bash (Windows)
        python -m venv venv
        source venv/Scripts/activate
+       # .\venv\Scripts\Activate.ps1 # En PowerShell
 
     3. Instalar dependencias:
        pip install -r requirements.txt
 
     4. Abrir y ejecutar el notebook:
-       Abrir VS Code o Jupyter Lab y ejecutar eda_diabetes.ipynb de arriba a abajo.
+       Abrir VS Code o Jupyter Lab y ejecutar eda_diabetes.ipynb de arriba a abajo seleccionando el Kernel del entorno venv.
 
